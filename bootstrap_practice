@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Website</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="website.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img
+                    src="C:\Users\overa\Desktop\Bootcamp\VSCode\CSS_lessons\Disc_site\img\uslogo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Drivers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Mid-Ranges</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Putters</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="C:\Users\overa\Desktop\Bootcamp\VSCode\CSS_lessons\Disc_site\img\dg_landscape.jpg" alt="">
+                <div class="carousel-caption">
+                    <h1 class="display-2">In The Bag</h1>
+                    <h3>Mike Finnegan 2021</h3>
+                    <button type="button" class="btn btn-primary btn-lg">View Discs</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="C:\Users\overa\Desktop\Bootcamp\VSCode\CSS_lessons\Disc_site\img\eagle sidearm.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="C:\Users\overa\Desktop\Bootcamp\VSCode\CSS_lessons\Disc_site\img\discs.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row jumbotron">
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+                <p class="lead">Mike Finnegan has been playing disc golf seriously for just over a year. He has come to
+                    understand the importance of shot shapes and disc selection. Here, he shares which discs he carries
+                    in the bag to ensure he is equipped to handle any situation on the course. If you have any questions
+                    or comments about his disc selections, or if you'd like to share what you carry with you, jon his
+                    mailing list.</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Join</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Disc Types</h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead">How far you are from the basket determines which type of disc is best for your throw...
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img src="C:\Users\overa\Desktop\Bootcamp\VSCode\CSS_lessons\Disc_site\img\drivers.jpg" alt="">
+                <h3>Drivers</h3>
+                <p>For your initial shot. Further from the basket means more distance needed.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <img src="C:\Users\overa\Desktop\Bootcamp\VSCode\CSS_lessons\Disc_site\img\mids.jpg" alt="">
+                <h3>Mid-Ranges</h3>
+                <p>After your initial shot, a disc is needed to get you close to the pin. </p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <img src="C:\Users\overa\Desktop\Bootcamp\VSCode\CSS_lessons\Disc_site\img\putters1.jpg" alt="">
+                <h3>Putters</h3>
+                <p>Once youo're in range, you need a reliable short-range disc to make the putt.</p>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <h2>Practice makes...really good!</h2>
+                <p>Doing "field work" will strengthen your arm, develop muscle memory, improve your form, and help you
+                    develop a sense of what discs you need for certain situations out on the course.</p>
+                <p>Practicing with the various disc types and developing your shot-shapes will help you drop strokes off
+                    your score.</p>
+                <p>Practice, practice, practice.</p>
+                <br>
+                <a href="#" class="btn btn-primary">Learn Field Drills</a>
+                <br>
+            </div>
+            <br>
+            <div class="col-lg-6">
+                <img src="C:\Users\overa\Desktop\Bootcamp\VSCode\CSS_lessons\Disc_site\img\usdgc2_paul.jpg"
+                    class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+    <figure>
+        <div class="fixed-wrap">
+            <div id="fixed">
+                <img src="C:\Users\overa\Desktop\Bootcamp\VSCode\CSS_lessons\Disc_site\img\land3.jpg" alt="">
+            </div>
+        </div>
+    </figure>
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Brands</h1>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="C:\Users\overa\Desktop\Bootcamp\VSCode\CSS_lessons\Disc_site\img\discraft.png" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Discraft</h4>
+                        <p class="card-text">Amazing discs and amazing sponsorships. Some of the sport's top players are
+                            signed with Discraft.</p>
+                        <a href="#" class="btn btn-outline-secondary">Shop</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="C:\Users\overa\Desktop\Bootcamp\VSCode\CSS_lessons\Disc_site\img\mania.png" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Discmania</h4>
+                        <p class="card-text">One of the smaller companies, but recently started producing their discs
+                            in-house. Sponsored players include Simon Lizotte and Eagle McMahon, favorites among younger
+                            players.</p>
+                        <a href="#" class="btn btn-outline-secondary">Shop</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="C:\Users\overa\Desktop\Bootcamp\VSCode\CSS_lessons\Disc_site\img\innova.png" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Innova</h4>
+                        <p class="card-text">One of the most well known and trusted names in the sport. Their discs have
+                            been a mainstay for nearly two decades.
+                        </p>
+                        <a href="#" class="btn btn-outline-secondary">Shop</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-6">
+                <h2>Philosophy of Disc Golf</h2>
+                <p>Have Fun! Whether you're on the course with your buddies on the weekend, or you're out at the field
+                    practicing your shots, or on hole 18 at the biggest tournament in town, make sure you're enjoying
+                    yourself! </p>
+                <p>With practice and determination, you'll be tearing it up out there and having a blast. Grow the
+                    sport. Let's grow together and throw together!</p>
+                <br>
+            </div>
+            <br>
+            <div class="col-lg-6">
+                <img src="C:\Users\overa\Desktop\Bootcamp\VSCode\CSS_lessons\Disc_site\img\Simon-Lizotte.jpg"
+                    class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+    <div class="container-fluid padding">
+        <div class="row text-center padding">
+            <div class="col-12">
+                <h2>Connect</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="C:\Users\overa\Desktop\Bootcamp\VSCode\CSS_lessons\Disc_site\img\logo99.png" alt="">
+                    <hr class="light">
+                    <p>469-999-9999</p>
+                    <p>email@myemail.com</p>
+                    <p>1001 Street Lane</p>
+                    <p>Plano, TX.75023</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>PDGA</h5>
+                    <hr class="light">
+                    <p>#146951 Current Pro thru 12/2021</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Home Courses</h5>
+                    <hr class="light">
+                    <p>Alex Clark, McKinney, TX.</p>
+                    <p>Towne Lake, McKinney, TX.</p>
+                    <p>Harry Myers, Rockwall, TX></p>
+                    <p>Audubon, Garland, TX.</p>
+                </div>
+                <div class="col-12">
+                    <hr class="light-100">
+                    <h5>&copy; Theupshot.net</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</body>
+
+</html>
